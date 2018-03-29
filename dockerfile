@@ -10,5 +10,3 @@ FROM r-base:3.4.0
     RUN Rscript -e 'library(GO.db, impute)'   
     RUN Rscript -e 'install.packages(c("WGCNA","sqldf"))'
     RUN Rscript -e 'library(WGCNA, sqldf)'   
-
-© 2018 GitHub, Inc.
